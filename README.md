@@ -2,6 +2,8 @@
 
 ## Features
 
+🗏 [Choose a service tier for Azure AI Search](https://learn.microsoft.com/en-us/azure/search/search-sku-tier)
+
 ### Price Tier and Features
 
 
