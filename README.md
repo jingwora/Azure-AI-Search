@@ -103,5 +103,6 @@
 
 ## Tutorials
 
--[search-get-started-semantic](https://learn.microsoft.com/en-us/azure/search/search-get-started-semantic?tabs=python)
+- [search-get-started-semantic](https://learn.microsoft.com/en-us/azure/search/search-get-started-semantic?tabs=python)
+- [Azure AI Search sample python](https://learn.microsoft.com/en-us/azure/search/samples-python)
 
