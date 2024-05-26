@@ -34,3 +34,8 @@
 | Integration | Scale out                                                   | Not   allowed          | Allowed                           | Allowed                           |
 | Integration | SLA Guaranteed                                              | No                     | Yes                               | Yes                               |
 
+## Documents
+
+🗏 [Azure AI Search client library for Python](https://learn.microsoft.com/en-us/python/api/overview/azure/search-documents-readme?view=azure-python)
+
+
