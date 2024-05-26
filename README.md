@@ -101,5 +101,7 @@
 - **Vector Search:** Uses vector similarity techniques to find semantically similar documents based on vector representations.
 - **Result Merging:** Combines the results from both searches, often re-ranking them based on a combined relevance score to produce a comprehensive set of search results.
 
+## Tutorials
 
+-[search-get-started-semantic](https://learn.microsoft.com/en-us/azure/search/search-get-started-semantic?tabs=python)
 
