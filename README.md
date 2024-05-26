@@ -8,6 +8,7 @@
 
 ### Price Tier and Features
 
+- Summary table of the different search methods in Azure AU Search.
 
 | Section     |                           Feature                           |          Free          |               Basic               |           Standard S1+            |
 |-------------|:-----------------------------------------------------------:|:----------------------:|:---------------------------------:|:---------------------------------:|
@@ -34,8 +35,19 @@
 | Integration | Scale out                                                   | Not   allowed          | Allowed                           | Allowed                           |
 | Integration | SLA Guaranteed                                              | No                     | Yes                               | Yes                               |
 
+
+### Search Method
+|  Search   Method  |                                              Description                                              |     Query Type    |       Scoring Algorithm      |                                                        Use Cases                                                        |                                                   Example Use                                                  |    Minimal Price Tier   |
+|:-----------------:|:-----------------------------------------------------------------------------------------------------:|:-----------------:|:----------------------------:|:-----------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------:|:-----------------------:|
+| Simple   Search   | Basic   keyword search with support for fuzzy matching, wildcards, and term boosting.                 | simple            | TF/IDF   (BM25)              | Simple   keyword searches, basic filtering, partial matches.                                                            | Searching   for documents containing specific keywords.                                                        | Free   Tier             |
+| Full   Search     | Advanced   query language supporting complex expressions with logical operators and   proximity.      | full              | TF/IDF   (BM25)              | Complex   searches requiring precise control over query logic and conditions.                                           | Searching   for documents with complex boolean conditions.                                                     | Free   Tier             |
+| Semantic   Search | Uses   NLP to understand context and meaning of terms, providing more relevant   results.             | semantic          | Machine   Learning Models    | Enhancing   search relevance through contextual understanding and semantic ranking.                                     | Natural   language queries, finding documents based on the intent behind the search.                           | Standard   (S1)         |
+| Vector   Search   | Uses   vector representations to find similar items based on proximity in a   high-dimensional space. | Custom            | Vector   Similarity (Cosine) | Finding   semantically similar documents or items, leveraging deep learning models.                                     | Searching   for documents or items similar to a given vector representation.                                   | Custom   Implementation |
+| Hybrid Search     | Combines   traditional keyword search with vector-based semantic search for   comprehensive results.  | semantic + Custom | BM25   + Vector Similarity   | Scenarios   requiring both exact keyword matches and semantic understanding to improve   search relevance and accuracy. | Combining   keyword search and vector similarity to find the most relevant documents   based on both criteria. | Standard (S1) + Custom  |
+
 ## Documents
 
 🗏 [Azure AI Search client library for Python](https://learn.microsoft.com/en-us/python/api/overview/azure/search-documents-readme?view=azure-python)
 
+🗏 [Query type](https://learn.microsoft.com/en-us/azure/search/search-query-overview)
 
